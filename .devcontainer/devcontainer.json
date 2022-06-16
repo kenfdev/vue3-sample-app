@@ -18,7 +18,9 @@
       "extensions": [
         "dbaeumer.vscode-eslint",
         "vue.volar",
-        "vue.vscode-typescript-vue-plugin"
+        "vue.vscode-typescript-vue-plugin",
+        "esbenp.prettier-vscode",
+        "sdras.vue-vscode-snippets"
       ]
     }
   },
