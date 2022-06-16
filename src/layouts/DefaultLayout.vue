@@ -16,7 +16,7 @@ showUserMenu.value = !!currentUser.value
       <v-app-bar-nav-icon></v-app-bar-nav-icon>
     </template>
     <template v-slot:append>
-      <user-menu v-if="showUserMenu"></user-menu>
+      <user-menu v-if="showUserMenu" :user="currentUser"></user-menu>
     </template>
   </v-app-bar>
   <v-main>

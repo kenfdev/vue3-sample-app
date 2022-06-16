@@ -4,8 +4,13 @@ export async function login(): Promise<User> {
   return new Promise((resolve) => {
     setTimeout(() => {
       resolve({
-        id: '366cc420-c1c5-43f4-841e-d9952bb1dbd1',
-        username: 'John Doe',
+        id: '40d36103-9539-4301-9ecf-bd83ef01c72f',
+        email: 'narong-luo@mac.dev',
+        firstName: 'Narong',
+        lastName: 'Luo',
+        phone: '+387 17 59559',
+        img: 'https://i.pravatar.cc/100',
+        username: 'Narong_Luo',
       });
     }, 500);
   });
