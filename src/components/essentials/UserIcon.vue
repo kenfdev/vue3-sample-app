@@ -1,9 +1,9 @@
 <template>
-  <v-avatar v-if="user?.img">
+  <!-- <v-avatar v-if="user?.img">
     <v-img :src="user.img" alt="John"></v-img>
-  </v-avatar>
-  <v-avatar v-else color="red">
-    <span class="text-white text-h5">{{ userInitials }}</span>
+  </v-avatar> -->
+  <v-avatar color="blue">
+    <span class="text-white text-h6">{{ userInitials }}</span>
   </v-avatar>
 
 </template>

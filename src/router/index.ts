@@ -2,6 +2,7 @@ import { createWebHistory, createRouter, RouteRecordRaw } from 'vue-router';
 import LoginPageVue from '@/pages/LoginPage.vue';
 import { authenticationGuard } from './authGuard';
 import HomePageVue from '@/pages/HomePage.vue';
+import UserListPageVue from '@/pages/users/UserListPage.vue';
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -14,6 +15,12 @@ const routes: Array<RouteRecordRaw> = [
     path: '/login',
     name: 'Login',
     component: LoginPageVue,
+  },
+  {
+    path: '/users',
+    name: 'Users',
+    component: UserListPageVue,
+    beforeEnter: authenticationGuard,
   },
 ];
 

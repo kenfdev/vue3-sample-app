@@ -1,3 +1,6 @@
+generated/*
+!generated/.gitkeep
+
 # Logs
 logs
 *.log

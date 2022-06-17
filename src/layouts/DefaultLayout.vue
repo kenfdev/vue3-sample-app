@@ -20,6 +20,10 @@ showUserMenu.value = !!currentUser.value
     </template>
   </v-app-bar>
   <v-main>
-    <slot></slot>
+    <div class="w-75 mx-auto">
+      <div class="d-flex justify-center">
+        <slot></slot>
+      </div>
+    </div>
   </v-main>
 </template>

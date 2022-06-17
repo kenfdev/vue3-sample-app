@@ -4,6 +4,6 @@ export interface User {
   firstName: string;
   lastName: string;
   phone: string;
-  img: string;
+  img: string | null;
   username: string;
 }
