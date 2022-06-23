@@ -33,9 +33,6 @@
       </tr>
     </tbody>
   </v-table>
-  <div class="d-flex justify-center mt-8">
-    <v-btn>Show More</v-btn>
-  </div>
 </template>
 
 <script setup lang="ts">

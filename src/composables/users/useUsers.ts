@@ -1,15 +1,8 @@
 import { getUsers } from '@/api/users';
-import useSWRV from 'swrv';
+import { useInfiniteQuery } from 'vue-query';
 
 export function useUsers() {
-  const { data, isValidating, mutate, error } = useSWRV('/users', getUsers, {
-    revalidateOnFocus: false,
+  return useInfiniteQuery('users', (ctx) => getUsers(ctx.pageParam), {
+    getNextPageParam: (lastPage) => lastPage.meta.nextPage,
   });
-
-  return {
-    users: data,
-    loading: isValidating,
-    mutate,
-    error,
-  };
 }
