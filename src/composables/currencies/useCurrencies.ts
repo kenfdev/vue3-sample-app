@@ -21,10 +21,11 @@ export function useCurrencies(input: UseCurrenciesInput) {
         start: s?.isValid() ? s.unix() : undefined,
         end: e?.isValid() ? e.unix() : undefined,
       });
+
       return data;
     }
   );
-  const currencies = ref(data);
+  const currencies = ref(data.value);
 
   watch(data, (newData) => (currencies.value = newData));
 

@@ -12,12 +12,14 @@
   },
   "dependencies": {
     "@mdi/font": "5.9.55",
+    "apexcharts": "^3.35.3",
     "axios": "^0.27.2",
     "dayjs": "^1.11.3",
     "roboto-fontface": "*",
     "vue": "^3.2.25",
     "vue-query": "1.25.0",
     "vue-router": "^4.0.16",
+    "vue3-apexcharts": "^1.4.1",
     "vuetify": "^3.0.0-beta.0",
     "webfontloader": "^1.0.0"
   },
