@@ -1,0 +1,502 @@
+[
+	{
+		"timestamp": 1635800513,
+		"currency1": 56.02,
+		"currency2": 54.13
+	},
+	{
+		"timestamp": 1619269835,
+		"currency1": 71.36,
+		"currency2": 31.10
+	},
+	{
+		"timestamp": 1596017660,
+		"currency1": 16.36,
+		"currency2": 27.29
+	},
+	{
+		"timestamp": 1632327989,
+		"currency1": 52.35,
+		"currency2": 64.52
+	},
+	{
+		"timestamp": 1654833102,
+		"currency1": 52.40,
+		"currency2": 55.47
+	},
+	{
+		"timestamp": 1621735578,
+		"currency1": 70.15,
+		"currency2": 53.69
+	},
+	{
+		"timestamp": 1612745017,
+		"currency1": 89.99,
+		"currency2": 69.76
+	},
+	{
+		"timestamp": 1602186670,
+		"currency1": 90.63,
+		"currency2": 39.33
+	},
+	{
+		"timestamp": 1605913875,
+		"currency1": 50.82,
+		"currency2": 71.74
+	},
+	{
+		"timestamp": 1638613984,
+		"currency1": 59.91,
+		"currency2": 97.25
+	},
+	{
+		"timestamp": 1621410136,
+		"currency1": 89.85,
+		"currency2": 85.94
+	},
+	{
+		"timestamp": 1610653941,
+		"currency1": 96.74,
+		"currency2": 78.87
+	},
+	{
+		"timestamp": 1631351021,
+		"currency1": 41.70,
+		"currency2": 38.63
+	},
+	{
+		"timestamp": 1637759837,
+		"currency1": 41.07,
+		"currency2": 88.29
+	},
+	{
+		"timestamp": 1631220863,
+		"currency1": 58.75,
+		"currency2": 51.20
+	},
+	{
+		"timestamp": 1631091788,
+		"currency1": 61.69,
+		"currency2": 20.67
+	},
+	{
+		"timestamp": 1622284722,
+		"currency1": 88.67,
+		"currency2": 33.77
+	},
+	{
+		"timestamp": 1635840399,
+		"currency1": 89.95,
+		"currency2": 74.93
+	},
+	{
+		"timestamp": 1642209809,
+		"currency1": 54.71,
+		"currency2": 16.79
+	},
+	{
+		"timestamp": 1621315633,
+		"currency1": 30.69,
+		"currency2": 10.14
+	},
+	{
+		"timestamp": 1627367686,
+		"currency1": 34.66,
+		"currency2": 51.89
+	},
+	{
+		"timestamp": 1612503551,
+		"currency1": 11.56,
+		"currency2": 27.32
+	},
+	{
+		"timestamp": 1619236142,
+		"currency1": 19.29,
+		"currency2": 17.89
+	},
+	{
+		"timestamp": 1630396137,
+		"currency1": 22.83,
+		"currency2": 42.36
+	},
+	{
+		"timestamp": 1616423017,
+		"currency1": 92.93,
+		"currency2": 72.39
+	},
+	{
+		"timestamp": 1618725640,
+		"currency1": 63.00,
+		"currency2": 68.41
+	},
+	{
+		"timestamp": 1632278347,
+		"currency1": 61.98,
+		"currency2": 3.70
+	},
+	{
+		"timestamp": 1639261025,
+		"currency1": 33.44,
+		"currency2": 59.92
+	},
+	{
+		"timestamp": 1623789919,
+		"currency1": 32.10,
+		"currency2": 86.83
+	},
+	{
+		"timestamp": 1613005503,
+		"currency1": 98.26,
+		"currency2": 80.60
+	},
+	{
+		"timestamp": 1655402035,
+		"currency1": 18.80,
+		"currency2": 26.87
+	},
+	{
+		"timestamp": 1633844293,
+		"currency1": 8.69,
+		"currency2": 93.91
+	},
+	{
+		"timestamp": 1642437204,
+		"currency1": 71.35,
+		"currency2": 82.26
+	},
+	{
+		"timestamp": 1628842512,
+		"currency1": 96.40,
+		"currency2": 11.58
+	},
+	{
+		"timestamp": 1633798366,
+		"currency1": 42.14,
+		"currency2": 7.86
+	},
+	{
+		"timestamp": 1598944327,
+		"currency1": 11.02,
+		"currency2": 66.24
+	},
+	{
+		"timestamp": 1614775679,
+		"currency1": 18.33,
+		"currency2": 53.32
+	},
+	{
+		"timestamp": 1656208227,
+		"currency1": 98.60,
+		"currency2": 35.04
+	},
+	{
+		"timestamp": 1603353788,
+		"currency1": 97.00,
+		"currency2": 19.24
+	},
+	{
+		"timestamp": 1645558360,
+		"currency1": 88.98,
+		"currency2": 94.06
+	},
+	{
+		"timestamp": 1602127194,
+		"currency1": 55.90,
+		"currency2": 97.73
+	},
+	{
+		"timestamp": 1653024085,
+		"currency1": 60.43,
+		"currency2": 30.76
+	},
+	{
+		"timestamp": 1597719670,
+		"currency1": 35.24,
+		"currency2": 83.27
+	},
+	{
+		"timestamp": 1632518180,
+		"currency1": 73.76,
+		"currency2": 81.16
+	},
+	{
+		"timestamp": 1638870725,
+		"currency1": 18.35,
+		"currency2": 73.17
+	},
+	{
+		"timestamp": 1655877349,
+		"currency1": 91.57,
+		"currency2": 5.32
+	},
+	{
+		"timestamp": 1619727129,
+		"currency1": 74.66,
+		"currency2": 71.75
+	},
+	{
+		"timestamp": 1640690680,
+		"currency1": 72.43,
+		"currency2": 43.40
+	},
+	{
+		"timestamp": 1630097541,
+		"currency1": 83.52,
+		"currency2": 57.28
+	},
+	{
+		"timestamp": 1653262599,
+		"currency1": 50.38,
+		"currency2": 79.53
+	},
+	{
+		"timestamp": 1645096547,
+		"currency1": 12.26,
+		"currency2": 35.64
+	},
+	{
+		"timestamp": 1623847054,
+		"currency1": 7.81,
+		"currency2": 39.63
+	},
+	{
+		"timestamp": 1653941661,
+		"currency1": 97.58,
+		"currency2": 83.59
+	},
+	{
+		"timestamp": 1640256134,
+		"currency1": 39.72,
+		"currency2": 38.22
+	},
+	{
+		"timestamp": 1609207013,
+		"currency1": 64.30,
+		"currency2": 40.14
+	},
+	{
+		"timestamp": 1608666536,
+		"currency1": 14.65,
+		"currency2": 21.31
+	},
+	{
+		"timestamp": 1655953372,
+		"currency1": 16.37,
+		"currency2": 15.42
+	},
+	{
+		"timestamp": 1604295013,
+		"currency1": 31.02,
+		"currency2": 93.35
+	},
+	{
+		"timestamp": 1637018704,
+		"currency1": 19.20,
+		"currency2": 9.68
+	},
+	{
+		"timestamp": 1599072384,
+		"currency1": 4.33,
+		"currency2": 35.02
+	},
+	{
+		"timestamp": 1655227972,
+		"currency1": 40.87,
+		"currency2": 40.39
+	},
+	{
+		"timestamp": 1642614327,
+		"currency1": 32.66,
+		"currency2": 20.26
+	},
+	{
+		"timestamp": 1619964392,
+		"currency1": 11.48,
+		"currency2": 75.67
+	},
+	{
+		"timestamp": 1627213333,
+		"currency1": 20.63,
+		"currency2": 22.82
+	},
+	{
+		"timestamp": 1653352343,
+		"currency1": 94.01,
+		"currency2": 32.99
+	},
+	{
+		"timestamp": 1596954128,
+		"currency1": 17.53,
+		"currency2": 20.99
+	},
+	{
+		"timestamp": 1604635424,
+		"currency1": 69.07,
+		"currency2": 18.99
+	},
+	{
+		"timestamp": 1634323677,
+		"currency1": 53.39,
+		"currency2": 11.07
+	},
+	{
+		"timestamp": 1624301373,
+		"currency1": 66.76,
+		"currency2": 52.75
+	},
+	{
+		"timestamp": 1621437803,
+		"currency1": 67.52,
+		"currency2": 45.43
+	},
+	{
+		"timestamp": 1624826705,
+		"currency1": 12.95,
+		"currency2": 64.79
+	},
+	{
+		"timestamp": 1603050794,
+		"currency1": 56.03,
+		"currency2": 15.41
+	},
+	{
+		"timestamp": 1597041104,
+		"currency1": 8.04,
+		"currency2": 66.10
+	},
+	{
+		"timestamp": 1645149819,
+		"currency1": 98.80,
+		"currency2": 54.26
+	},
+	{
+		"timestamp": 1599206686,
+		"currency1": 84.51,
+		"currency2": 2.77
+	},
+	{
+		"timestamp": 1609692217,
+		"currency1": 36.04,
+		"currency2": 91.38
+	},
+	{
+		"timestamp": 1633763357,
+		"currency1": 76.71,
+		"currency2": 96.83
+	},
+	{
+		"timestamp": 1609461194,
+		"currency1": 21.99,
+		"currency2": 78.24
+	},
+	{
+		"timestamp": 1613328662,
+		"currency1": 53.06,
+		"currency2": 51.74
+	},
+	{
+		"timestamp": 1598522264,
+		"currency1": 24.12,
+		"currency2": 85.98
+	},
+	{
+		"timestamp": 1615267498,
+		"currency1": 24.40,
+		"currency2": 14.68
+	},
+	{
+		"timestamp": 1649397183,
+		"currency1": 10.46,
+		"currency2": 40.97
+	},
+	{
+		"timestamp": 1639116138,
+		"currency1": 27.26,
+		"currency2": 77.42
+	},
+	{
+		"timestamp": 1642821270,
+		"currency1": 26.87,
+		"currency2": 84.28
+	},
+	{
+		"timestamp": 1635490479,
+		"currency1": 57.32,
+		"currency2": 70.90
+	},
+	{
+		"timestamp": 1607941325,
+		"currency1": 1.45,
+		"currency2": 64.70
+	},
+	{
+		"timestamp": 1630727770,
+		"currency1": 38.79,
+		"currency2": 99.36
+	},
+	{
+		"timestamp": 1651395069,
+		"currency1": 51.28,
+		"currency2": 42.42
+	},
+	{
+		"timestamp": 1618470877,
+		"currency1": 65.08,
+		"currency2": 41.61
+	},
+	{
+		"timestamp": 1609799870,
+		"currency1": 49.17,
+		"currency2": 82.31
+	},
+	{
+		"timestamp": 1603472674,
+		"currency1": 74.87,
+		"currency2": 51.68
+	},
+	{
+		"timestamp": 1625795175,
+		"currency1": 56.15,
+		"currency2": 80.23
+	},
+	{
+		"timestamp": 1628259064,
+		"currency1": 23.35,
+		"currency2": 16.36
+	},
+	{
+		"timestamp": 1629254004,
+		"currency1": 36.83,
+		"currency2": 61.59
+	},
+	{
+		"timestamp": 1628287264,
+		"currency1": 59.81,
+		"currency2": 86.99
+	},
+	{
+		"timestamp": 1615289944,
+		"currency1": 54.40,
+		"currency2": 90.29
+	},
+	{
+		"timestamp": 1638974817,
+		"currency1": 2.54,
+		"currency2": 66.74
+	},
+	{
+		"timestamp": 1606587951,
+		"currency1": 58.30,
+		"currency2": 12.41
+	},
+	{
+		"timestamp": 1650836515,
+		"currency1": 54.92,
+		"currency2": 32.39
+	},
+	{
+		"timestamp": 1618417085,
+		"currency1": 20.13,
+		"currency2": 9.04
+	}
+]
