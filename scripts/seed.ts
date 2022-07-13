@@ -3,7 +3,7 @@ import { randUser } from '@ngneat/falso';
 
 const db: any = {};
 
-const users = [...Array(100)].map(() => randUser());
+const users = [...Array(25)].map(() => randUser());
 
 db.users = users;
 

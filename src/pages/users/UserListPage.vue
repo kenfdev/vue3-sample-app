@@ -2,12 +2,17 @@
   <default-layout>
     <spinner v-if="isLoading"></spinner>
     <div v-else class="w-100">
+      <div class="d-flex justify-end mt-8">
+        <v-btn color="primary" @click="() => isShowModal = true">Add</v-btn>
+      </div>
       <user-list :users="users"></user-list>
       <div class="d-flex justify-center mt-8">
         <v-btn v-if="hasNextPage" @click="() => fetchNextPage()">Show More</v-btn>
       </div>
     </div>
-
+    <modal :is-show="isShowModal">
+      <user-form @cancel="() => isShowModal = false" @submit="onSubmit" />
+    </modal>
   </default-layout>
 </template>
 
@@ -16,16 +21,25 @@ import Spinner from '@/components/essentials/Spinner.vue';
 import DefaultLayout from '@/layouts/DefaultLayout.vue';
 import { useUsers } from '@/composables/users/useUsers';
 import UserList from '@/components/fragments/UserList.vue';
-import { ref, watch } from 'vue';
-import { User } from '@/shared/models/user';
+import { ref } from 'vue';
+import Modal from '@/components/fragments/Modal.vue';
+import UserForm from '@/components/fragments/UserForm.vue';
+import { useCreateUser } from '@/composables/users/useCreateUser';
+import { UserCreateInput } from '@/api/users';
 
-const { data, isLoading, fetchNextPage, hasNextPage } = useUsers();
+const { users, isLoading, fetchNextPage, hasNextPage } = useUsers();
+const { mutateAsync } = useCreateUser();
 
-const users = ref<User[]>([]);
+const isShowModal = ref(false);
 
-watch(data, () => {
-  users.value = data.value?.pages.flatMap(page => page.data) || [];
-})
+async function onSubmit(newUserInput: UserCreateInput) {
+  try {
+    await mutateAsync(newUserInput)
+    isShowModal.value = false;
+  } catch (e) {
+    console.error(e);
+  }
+}
 
 </script>
 
