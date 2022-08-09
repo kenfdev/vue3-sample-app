@@ -14,7 +14,7 @@
     "@mdi/font": "5.9.55",
     "apexcharts": "^3.35.3",
     "axios": "^0.27.2",
-    "dayjs": "^1.11.3",
+    "dayjs": "^1.11.4",
     "roboto-fontface": "*",
     "vue": "^3.2.25",
     "vue-query": "1.25.0",
