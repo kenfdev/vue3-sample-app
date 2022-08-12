@@ -18,6 +18,11 @@
               </v-text-field>
             </v-col>
             <v-col cols="12">
+              <datepicker v-model="birthDate" text-input :format="'yyyy/MM/dd'"
+                :month-change-on-scroll="false"></datepicker>
+              <v-messages :active="!!errors" class="text-red" :messages="errors.birthDate"></v-messages>
+            </v-col>
+            <v-col cols="12">
               <v-text-field label="Email*" v-model="email" :error-messages="errors.email"></v-text-field>
             </v-col>
             <v-col cols="12">
@@ -46,6 +51,8 @@ import { UserCreateInput } from '@/api/users';
 import { useForm, useField } from 'vee-validate';
 import * as zod from 'zod';
 import { toFormValidator } from '@vee-validate/zod';
+import Datepicker from '@vuepic/vue-datepicker';
+import '@vuepic/vue-datepicker/dist/main.css'
 
 interface UserForm {
   username: string;
@@ -53,6 +60,7 @@ interface UserForm {
   lastName: string;
   email: string;
   phone: string;
+  birthDate: Date;
 }
 
 const { errors, validate } = useForm<UserForm>({
@@ -60,6 +68,7 @@ const { errors, validate } = useForm<UserForm>({
     username: zod.string({ required_error: 'Username is required' }).min(6, 'Username must be longer than 6 characters'),
     firstName: zod.string({ required_error: 'First Name is required' }),
     lastName: zod.string({ required_error: 'Last Name is required' }),
+    birthDate: zod.date({ required_error: 'Birth Date is required' }).max(new Date(), 'Cannot specify future date'),
     email: zod.string({ required_error: 'Email is required' }).email('Enter a valid Email'),
     phone: zod.string().optional()
   }))
@@ -71,6 +80,7 @@ const { value: username } = useField<string>('username');
 const { value: firstName } = useField<string>('firstName');
 const { value: lastName } = useField<string>('lastName');
 const { value: email } = useField<string>('email');
+const { value: birthDate } = useField<Date>('birthDate');
 const { value: phone } = useField<string>('phone');
 
 const emit = defineEmits<{ (e: 'cancel'): void, (e: 'submit', user: UserCreateInput): void }>()
@@ -78,6 +88,7 @@ const emit = defineEmits<{ (e: 'cancel'): void, (e: 'submit', user: UserCreateIn
 const onSave = async () => {
   const result = await validate()
   console.log('result', result);
+  console.log('date', birthDate.value);
   if (!result.valid) return
 
   const userInput = { username: username.value, firstName: firstName.value, lastName: lastName.value, email: email.value, phone: phone.value };
